@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(112, 112, 112);
+    color: rgb(33, 32, 32);
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+form{
+    border: solid white 3px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 30vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+   
+}
+#cadastrar{
+    background-color: rgb(189, 189, 189);
+}   
+
+#inputsenha{
+    position: relative;
+}
+.icone{
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    bottom: 30%;
+}
+
+#inputtelefone{
+    position:relative;
+}
+.mais{
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    bottom: 25%;
+}
