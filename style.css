@@ -1,0 +1,93 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(112, 112, 112);
+    color: rgb(33, 32, 32);
+}
+
+input {
+    padding: 5px;
+    width: 240px;
+    height: 25px;
+}
+
+form{
+    border: solid white 3px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+   
+}
+#cadastrar{
+    background-color: rgb(189, 189, 189);
+}   
+
+
+
+#inputsenha{
+    position: relative;
+}
+.icone{
+    cursor: pointer;
+    position: absolute;
+    left: 85%;
+    bottom: 25%;
+}
+
+.icone:hover{
+    color: rgb(2, 78, 254);
+}
+.inputtelefone{
+    position:relative;
+    margin-bottom: 10px;
+   
+}
+
+.campotelefone{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.veritelefone{
+   
+    display: none;
+    right: 45px;
+    margin-top: 5%;
+}
+
+.mais{
+    cursor: pointer;
+    position: absolute;
+    left: 83%;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.mais:hover{
+    color: rgb(18, 167, 82);
+}
+
+.menos:hover{
+    color: rgb(209, 7, 3);
+}
+
+.primeiro{
+    cursor: pointer;
+    position: absolute;
+    left: 87%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#cadastrar:hover{
+    background-color: rgb(158, 158, 158);
+}
