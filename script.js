@@ -141,10 +141,6 @@ function adicionarTelefone(){
     let removerTelefone = document.createElement("i");
     removerTelefone.classList.add("bi", "bi-dash-square", "menos");
     removerTelefone.title = "Remover telefone";
-    removerTelefone.style.cursor = "pointer";
-    removerTelefone.style.position = "absolute";
-    removerTelefone.style.left = "90%";
-    removerTelefone.style.bottom = "25%";
     campoTelefone.appendChild(removerTelefone);
 
     
